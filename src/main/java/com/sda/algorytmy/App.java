@@ -4,9 +4,9 @@ package com.sda.algorytmy;
 public class App {
     public static void main(String[] args) {
 
-//      System.out.println(ciagF(11));
-//      ciagFr(11);
-        ciagFr2(2);
+      System.out.println(ciagF(11));
+      ciagFr(11);
+//      ciagFr2(2);
     }
 
     public static int ciagF(int a) {
@@ -30,26 +30,6 @@ public class App {
             System.out.println(tab[i]);
         }
 
-    }
-
-    public static void ciagFr2(int x) {
-
-        if (x < 2) {
-            System.out.println(x);
-        }
-
-        int a = 0;
-        int b = 1;
-        int wynik = 1;
-
-        for (int i = 2; i < x; i++) {
-
-            a = b;
-            b = wynik;
-            wynik = a + b;
-
-        }
-        System.out.println(wynik);
     }
 }
 
